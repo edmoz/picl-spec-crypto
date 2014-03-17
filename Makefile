@@ -2,7 +2,7 @@
 help:
 	@echo "run: make venv deps"
 	@echo "then ./venv/bin/python demo-client.py create email@restmail.net pw"
-	@echo "then ./venv/bin/python demo-client.py verify email@restmail.net pw"
+	@echo "then ./venv/bin/python demo-client.py verify email@restmail.net"
 	@echo " (or for non restmail.net acct, click verification email link)"
 	@echo " ./venv/bin/python demo-client.py login email@restmail.net pw"
 	@echo " ./venv/bin/python demo-client.py login-with-keys email@restmail.net pw"

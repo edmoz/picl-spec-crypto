@@ -257,7 +257,7 @@ def verifyForgotPassword(passwordForgotToken, code):
     return r["accountResetToken"].decode("hex")
 
 def main():
-    #GET("__heartbeat__", versioned="")
+    GET("__heartbeat__", versioned="")
     command = sys.argv[1]
     if command in ("create", "login", "login-with-keys", "destroy"):
         emailUTF8, passwordUTF8 = sys.argv[2:4]
